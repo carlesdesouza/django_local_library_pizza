@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Page principale</title>
+        <link rel="stylesheet" href="{%static 'main/style.css'%}">
+    </head>
+    <body>
+        <div class="centered">
+            <img id="main_logo" src="{%static 'main/images/main_logo.png'%}" alt="logo Pizza Mama">
+            <p id="link_menu"><a href="{% url 'menu:index'%}">Voir le menu</a></p>
+        </div>
+    </body>
+</html>
